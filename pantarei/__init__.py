@@ -2,6 +2,9 @@ __all__ = ("chosenProgressReporter", "ProgressReporter", "DummyProgressReporter"
 import typing
 import sys
 from abc import ABC, abstractmethod
+from warnings import warn
+
+warn("We have moved from M$ GitHub to https://codeberg.org/KAbs/pantarei.py , read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
 
 _debug = False
 
